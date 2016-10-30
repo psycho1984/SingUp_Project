@@ -14,6 +14,7 @@
 		59F5B36E1DC5F19000F680E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F5B36C1DC5F19000F680E6 /* LaunchScreen.storyboard */; };
 		59F5B3761DC5FFD400F680E6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5B3751DC5FFD400F680E6 /* LoginVC.swift */; };
 		59F5B3781DC6046200F680E6 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5B3771DC6046200F680E6 /* SignupVC.swift */; };
+		59F5B37A1DC609AF00F680E6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5B3791DC609AF00F680E6 /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		59F5B36F1DC5F19000F680E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59F5B3751DC5FFD400F680E6 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		59F5B3771DC6046200F680E6 /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		59F5B3791DC609AF00F680E6 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				59F5B36F1DC5F19000F680E6 /* Info.plist */,
 				59F5B3751DC5FFD400F680E6 /* LoginVC.swift */,
 				59F5B3771DC6046200F680E6 /* SignupVC.swift */,
+				59F5B3791DC609AF00F680E6 /* HomeVC.swift */,
 			);
 			path = SingUp_Project;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59F5B3781DC6046200F680E6 /* SignupVC.swift in Sources */,
+				59F5B37A1DC609AF00F680E6 /* HomeVC.swift in Sources */,
 				59F5B3661DC5F19000F680E6 /* ViewController.swift in Sources */,
 				59F5B3641DC5F19000F680E6 /* AppDelegate.swift in Sources */,
 				59F5B3761DC5FFD400F680E6 /* LoginVC.swift in Sources */,
@@ -308,6 +312,7 @@
 				59F5B3741DC5F19000F680E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
