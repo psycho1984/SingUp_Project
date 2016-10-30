@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var username_Label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +20,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        self.performSegue(withIdentifier: "avi_login", sender: self)
+    }
 
+    @IBAction func logoutTapped(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "avi_login", sender: self)
+    }
 
 }
 
